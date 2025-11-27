@@ -1,62 +1,77 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OfficeSupply Online - Kit Escritório Premium (Controle)</title>
+    <title>OfficeSupply Online – Início</title>
     <link rel="stylesheet" href="style-control.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>OfficeSupply Online</h1>
-            <nav>
-                <ul>
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#">Produtos</a></li>
-                    <li><a href="#">Promoções</a></li>
-                    <li><a href="#">Contato</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header> 
 
-    <main class="container">
-        <section class="product-detail"> 
-            <div class="product-image">
+<header>
+    <div class="container">
+        <h1>OfficeSupply Online</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="produto.html">Produtos</a></li>
+                <li><a href="#">Promoções</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main class="container">
+
+    <section class="hero">
+        <h2>Produtos Premium para seu Escritório</h2>
+        <p>Qualidade, organização e praticidade para seu dia a dia de trabalho.</p>
+    </section>
+
+    <section class="featured-products">
+        <h2>Destaques</h2>
+
+        <div class="product-grid">
+
+            <!-- PRODUTO 1 -->
+            <div class="product-card">
                 <img src="img001.jpeg" alt="Kit Escritório Premium">
-            </div>
-            <div class="product-info">
-                <h2 class="product-title">Kit Escritório Premium Clássico</h2>
-                <p class="product-category">Categoria: Kits Essenciais</p>
-                <div class="product-price">
-                    <span class="current-price">R$ 299,90</span>
-                </div>
-                <p class="product-description">
-                    Um kit completo com itens essenciais de alta qualidade para o seu dia a dia no escritório. Inclui canetas, cadernos, post-its e organizadores. Perfeito para quem busca funcionalidade.
-                </p>
-                <button class="add-to-cart-btn">Adicionar ao Carrinho</button>
-                <div class="product-features">
-                    <h3>Características:</h3>
-                    <ul>
-                        <li>Canetas esferográficas de ponta fina</li>
-                        <li>Caderno capa dura A5</li>
-                        <li>Bloco de notas adesivas</li>
-                        <li>Organizador de mesa compacto</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+                <h3>Kit Escritório Premium</h3>
+                <p class="card-category">Organização • Eficiência</p>
 
-        ---
+                <!-- Preço com desconto -->
+                <p class="old-price">De: R$ 349,00</p>
+                <p class="card-price">Por: R$ 279,90</p>
 
-        <section class="featured-products">
-            <h2>Outros Produtos que Você Pode Gostar</h2>
-            <div class="product-grid">
-                <div class="product-card">
-                    <img src="mouse.jpg" alt="Mouse Ergonômico Bluetooth">
-                    <h3>Mouse Ergonômico Bluetooth Silence</h3>
-                    <p class="card-category">Categoria: Tecnologia Essencial</p>
-                    <p class="card-price">R$ 149,90</p>
-                    <button class="add-to-cart-btn-small">Ver Detalhes</button>
-                </div>
+                <a href="produto.html">
+                    <button class="add-to-cart-btn-small">Ver Produto</button>
+                </a>
+            </div>
+
+            <!-- PRODUTO 2 -->
+            <div class="product-card">
+                <img src="mouse.jpg" alt="Mouse Ergonômico Bluetooth">
+                <h3>Mouse Ergonômico Bluetooth Silence</h3>
+                <p class="card-category">Tecnologia • Conforto</p>
+
+                <!-- Preço com desconto -->
+                <p class="old-price">De: R$ 169,90</p>
+                <p class="card-price">Por: R$ 144,90</p>
+
+                <a href="produto.html">
+                    <button class="add-to-cart-btn-small">Ver Produto</button>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2025 OfficeSupply Online – Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
